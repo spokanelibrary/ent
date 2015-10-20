@@ -1,0 +1,606 @@
+.right{text-align:right}
+.left{text-align:left}
+.center{text-align:center}
+.verticalCenterSingleLine{height:24px;line-height:24px}
+.clear{clear:both}
+.required{color:red}
+table.sortable thead{background-color:#eee;font-weight:bold;cursor:pointer;color:#013f85}
+#myAccount{width:1000px;float:left;position:relative;background:transparent}
+#accountSummary{background:white;float:right;width:184px;border:1px solid #808285;padding:4px 4px 10px;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px}
+#accountMain{width:785px;float:left;padding:0 8px 4px 0}
+#accountMain .redBadge{position:absolute;top:-8px;right:-8px;width:25px;height:25px;background-image:url('/client/css/vse/images/sirsidynix/redbadge.png');background-repeat:no-repeat;background-position:right top;z-index:1}
+#accountMain .greenBadge{position:absolute;top:-8px;right:-8px;width:25px;height:25px;background-image:url('/client/css/vse/images/sirsidynix/greenbadge.png');background-repeat:no-repeat;background-position:right top;z-index:1}
+#accountSummary .summarySection{clear:both;padding:20px 2px}
+#accountSummary .userStatusSection{clear:both;padding:5px 5px}
+#accountSummary .summarySubheading{font-weight:bold;font-size:14px;padding:5px}
+#accountSummary .lineitem{clear:both}
+#accountSummary .summaryPic{float:left;width:24px}
+#accountSummary .iconPadding{padding-top:4px}
+#accountSummary .alertIcon{float:left;width:24px;height:24px;background-image:url('/client/images/account-icons/red!.png');background-repeat:no-repeat;background-position:center top}
+#accountSummary .readyIcon{float:left;width:24px;height:24px;background-image:url('/client/images/account-icons/green!.png')}
+#accountSummary .summaryLabel{float:left;width:auto}
+#accountSummary .summaryData{width:auto;float:right;text-align:right;padding-right:10px}
+.summaryWarning{background-color:red;color:white}
+.summaryAlert{background-color:green;color:white}
+#userIdForm #editId{float:right}
+.removeRow{width:20px;height:19px;background-image:url('/client/images/delete.png');background-repeat:no-repeat;background-position:right bottom;float:left}
+#addressInfoPanel .removeRow:hover{text-decoration:none}
+.minForm{min-height:48px}
+#addressInfoPanel .formRow{float:left;clear:left}
+#addressInfoPanel .addLink{color:#013f85;line-height:normal;height:17px;position:absolute;right:13px;top:45px;min-width:70px;text-align:center}
+#addressInfoPanel .addLink:hover{text-decoration:none}
+#addressInfoPanel .update{position:absolute;top:13px;right:13px;min-width:76px}
+#changePinPanel table{width:100%}
+#changePinPanel .right{text-align:left}
+#changePinPanel .t-error li{margin-left:20px}
+#changePin{float:right}
+#changePinPanel .confirmMessage{color:green;font-weight:bold}
+.checkLabel{margin:-2px 5px 1px 2px}
+.preferencesCol{float:left}
+.preferencesSelect{width:200px}
+.preferencesRel{position:relative}
+.preferencesUpdate{position:absolute;bottom:0;right:0}
+#preferencesPanel tr{height:23px}
+.accountAlertImage{float:left}
+.accountCoverImage{max-height:60px;max-width:52px}
+.alertsCol{float:left;width:25%}
+.alertsHeading{font-weight:bold;font-size:14px;width:25%;float:left}
+#groupPanel table{width:60%}
+#groupPanel .groupProperties{width:100%}
+#groupPanel .groupHeading{font-weight:bold;text-align:left}
+#groupPanel th{border-bottom:1px gray solid}
+#groupPanel .Role{min-width:15%}
+#groupPanel .Id{min-width:15%}
+#groupPanel .Name{min-width:25%}
+#groupPanel .Status{min-width:45%}
+.address_wrapper{width:100%}
+.address_row{width:100%;clear:both}
+.address_identifier{display:inline-block;min-width:30%;float:left}
+.address_value{float:left}
+.finesSubheading{font-weight:bold}
+.selectAll{text-align:left;font-size:11px;font-style:italic}
+.accruingFinesTable{width:100%}
+.accruingFinesTable td{padding:5px}
+.accruingFinesTable thead span{display:block;float:left}
+.accruingFinesHeader_div{float:left}
+.payFinesTable th{border:0;padding:5px;background-color:#eee}
+.payFinesTable thead span{display:block;float:left}
+.payFinesTable .finesFooter{background-color:#f2f2f2}
+.myAccount_header{float:left}
+.payFinesTable tr{width:100%;border:0;padding:4px 0}
+.payFinesTable td{border:0}
+.indentCol{padding-left:10px}
+.smallCol{width:15%;text-align:center;padding:5px}
+.rateCol{width:15%;text-align:left;padding:5px}
+.medCol{min-width:180px;text-align:center;padding:5px}
+.checkboxCol{width:10px;text-align:left;padding:5px;cursor:default}
+.finesDue{font-size:14px;font-weight:bold;text-align:right;padding:5px}
+.finesSelected{font-size:14px;font-weight:bold;text-align:right;padding:2px;margin:8px}
+.applyCreditForm{display:inline}
+.applyCreditForm .button{float:right;margin-top:6px}
+.paypalForm{display:inline}
+.payFinesForm{display:inline;float:right;margin-top:6px}
+.inputText{width:66px;text-align:right}
+.paymentHistoryTable th{width:20%}
+.paymentHistoryTable td{width:20%}
+.historyTotal{border-top:solid 3px gray}
+.historySum{font-size:14px;font-weight:bold}
+.checkoutsAlert{padding:0;width:24px;text-align:center}
+.checkoutsCoverArtHeader{padding:0;width:9%;text-align:center;cursor:default}
+.checkoutsSelect{float:left;margin-top:2px}
+.checkoutsSelectText{font-weight:normal;font-size:9px;margin-left:5px}
+.checkoutsCheckbox{float:left;margin-top:24px}
+.disabledCheckoutsCheckbox{float:left;margin-top:24px}
+.checkoutsCoverArt{padding:0;width:11%;text-align:center;cursor:default}
+.checkoutsList{clear:both;margin-bottom:15px;width:100%}
+.checkoutsButtons{float:left}
+.checkoutsCheckboxSelectAll{float:left;margin-left:28px;margin-right:5px;margin-top:2px}
+.myAccountHeader_div{float:left}
+.checkoutsHeader span{float:left;display:block}
+.holdsHeader span{float:left;display:block}
+.checkoutsSpacer{height:30px}
+.checkoutsUser{text-align:center}
+.checkoutsIcons{margin-left:5px}
+.checkoutsRenewCount{text-align:center;font-size:11px}
+.checkoutsDueDate{text-align:center;font-size:11px}
+.checkoutsHistoryHeader{font-weight:bold}
+.checkoutsHistoryBookInfo{width:520px}
+.checkoutsHistoryUser{width:100px;text-align:right}
+.holdsHeader{font-weight:bold;height:8px}
+.holdsAlert{padding:0;width:24px}
+.holdsSelect{float:left;margin-top:2px}
+.holdError{color:red}
+.noneHoldMessage{font-weight:bold;font-size:16px}
+.holdsSelectText{font-weight:normal;font-size:9px;margin-left:5px}
+.holdsSelectAll_div{float:left;margin-left:28px;margin-right:5px;margin-top:2px}
+.holdsButtons{float:left}
+.holdsCheckbox{float:left;margin-top:24px}
+.readyHoldsCheckbox{float:left;margin-top:24px}
+.holdsCoverArt{padding:0;width:11%;text-align:center}
+.authBreak{margin-top:.5em;margin-bottom:.5em}
+#myHolds{padding:1em 5px}
+#HoldsList{width:100%}
+.holdsList{clear:both;margin-bottom:15px;width:100%}
+.holdsStatus{font-size:11px;text-align:center}
+.holdsUser{font-size:11px;text-align:center}
+.holdsPickup{font-size:11px;width:15%;text-align:center}
+.holdsDate{font-size:11px;text-align:center}
+.holdsRank{width:55px;font-size:11px;text-align:center}
+.creditArea{font-weight:bold;color:#ef7508}
+#checkoutsDetail .button,.HoldsDetail .button{padding:2px 4px!important;font-size:10px;margin-bottom:5px;margin-left:5px}
+#reducedPreferences{width:1000px;float:left;position:relative}
+#reducedPreferences form{border:1px solid #AAA;background:white;color:#222;font-family:Verdana,Arial,sans-serif;border-radius:4px;padding:5px}
+.myAccountGrid{font-family:"Verdana",Arial,sans-serif}
+.myAccountGrid th{text-align:left}
+.myAccountGrid .t-first{margin-left:10px;min-width:50%}
+.myAccountGrid td{text-align:left;padding:5px}
+#accountTabs{-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px}
+.CheckoutsDialogButtons,.HoldsDialogButtons{margin-top:7px}
+#myHolds_holdslist_editSelect,#suspendDates,#suspendDates input{margin:3px 0}
+#content #message{text-align:center;font-size:16px;background:white;border:1px solid #808285;border-radius:5px}h3{clear:both;padding:10px 0 5px}
+.myCheckouts,.groupCheckouts,.myHistory,#changePinPanel,#preferencesPanel,#groupPanel,.accruing,.myFines,.groupFines,#myPaymentHistory{padding-bottom:10px}
+#addressInfoPanel,#myHolds,#groupHolds{padding-bottom:20px}*{margin:0;padding:0}
+.searchResults_wrapper{clear:both}
+.editField{padding-bottom:5px}
+.thumb #results_wrapper{display:inline-block;padding-left:4px}
+.thumb .results_cell{float:left;width:175px;position:relative;padding:8px}
+.thumb .results_chkbox{position:absolute;top:210px;left:0}
+.thumb .results_top_half{-moz-border-radius:5px;-webkit-border-radius:5px;-khtml-border-radius:5px;border-radius:5px;text-align:center;height:200px}
+.thumb .results_bio{text-align:left;width:160px;padding-left:16px}
+.thumb .results_img{vertical-align:bottom;max-width:173px;max-height:200px}
+.thumb .asset_results_img{vertical-align:bottom;width:173px;height:200px}
+.thumb .results_img_div{width:173px;height:200px;position:relative}
+.thumb .results_every_four{display:inline-block;padding:15px 0}
+.thumb .results_optional1{display:none}
+.thumb .results_optional2{display:none}
+.thumb .results_bio_br{display:none}
+.thumb .results_right_div{display:none}
+.thumb .thumb_hidden{display:none}
+.thumb .thumbnail{display:table-cell;vertical-align:middle;width:173px;height:200px}
+.thumb .results_right{display:none}
+.thumb .facebook_like{width:48}
+.list .facebook_like{height:65px;float:right;clear:right;margin-right:5px}
+.thumb .cell_wrapper{display:inline}
+.thumb #searchResultsColumn{width:769px;border-left:1px solid #555}
+.thumb #limitcolumn_wrapper{float:left}
+.thumb .facebook_like{display:none}
+.results_right_fb_holds{position:absolute;bottom:0;right:0}
+.list #results_wrapper{width:765px;border-top:1px dotted #aaa}
+.list .no_enriched_content{float:left;width:30px;height:100px}
+.format_container{display:inline-block}
+.format_container_asset{display:inline}
+.list .asset_results_img{vertical-align:bottom;margin-left:20px;width:80px;height:100px}
+.list .results_chkbox{position:absolute;top:30px;left:1px}
+.list .hitNumber.fourDigit{font-size:8px}
+.list .results_title{font-weight:bold}
+.list .myListItem .results_right{width:125px}
+.list .results_bio{float:left;width:465px;padding-top:5px}
+.list .myListItem .results_bio{width:425px}
+.list .results_img_div{float:left;width:110px;text-align:center;height:100px;display:table;position:relative}
+.list .thumbnail{width:110px}
+.list .results_format_icon{float:right;margin:5px 5px 0 35px}
+.list .results_social{float:left;padding-right:5px;padding-top:35px}
+.list .results_social img{vertical-align:bottom}
+.list .results_label{display:none}
+.list .results_bio_slash{display:none}
+.displayDetailLink{font-weight:bold;font-size:15px;display:inline}
+.list .cell_wrapper{padding:7px;margin-left:2px;width:98%}
+.myListList{margin-top:0}
+.myListList .cell_wrapper{width:95%}
+.detailPanel{display:none}
+.asset_detail_cover_art{width:100px;height:100px}
+#federatedResultsPanel{background:#f7f7f7;border:1px solid #808285;border-radius:8px;-webkit-border-radius:8px;-moz-border-radius:8px;padding-bottom:5px;width:100%;float:left}
+#federatedTitleBar{border-bottom:1px dotted #DDD;width:100%;display:inline-block}
+#federatedSearchTitle{float:left;padding:5px;font-size:20px}
+#federatedTitleBar_did_you_mean{margin-top:12px;margin-left:300px;float:left}
+#federatedResultsPanel .federatedViewIcon{margin-left:5px;float:left;display:block}
+#federatedResultsAccordion{display:block}
+#federatedViewIcon{float:right}
+#discoveryViewIcon{float:right;margin-top:2px;margin-right:4px}
+.federatedNoResult{padding:5px}
+.loadingFederatedResults{padding:5px;height:500px}
+.federatedAccordionHeader{margin-left:5px;margin-right:5px}
+.federatedSingleResultsSection{padding:0!important}
+.federatedMultipleResultsSection{padding:0!important;margin-left:5px!important;margin-right:5px!important}
+.federated{background:#f7f7f7}
+.federated .pagination{margin-top:3px}
+.federated .resultsToolbar_paginationNumbers{margin-top:3px}
+.federated .resultsToolbar_big_wrapper{border-bottom:1px dotted #AAA}
+.federated .navigationImage{margin-top:0;padding-left:4px}
+.federated .results_img{vertical-align:bottom;margin-left:20px;max-width:80px;max-height:100px}
+.federated .thumbnail{width:110px}
+.federated .cell_wrapper{background:#fff url(./images/sirsidynix/hitlistgradient3.png)repeat-x bottom left;border-bottom:1px dotted #ddd;padding:7px;margin-left:2px;min-height:40px}
+.federated .results_cell{width:100%;display:inline-block;position:relative;padding:3px}
+.federated .nonZ .results_bio{margin-left:30px}
+.federated .results_bio{float:left;width:465px;padding-top:5px}
+.federated .results_chkbox{position:absolute;top:30px;left:3px}
+.federated .hitNumber{position:absolute;top:10px;left:3px;font-weight:bold}
+.federated .connectionError{padding:5px;height:500px}
+.federated .adaMode{padding:5px;height:35px}
+.federated .results_img_div{float:left;width:110px;text-align:center;height:100px;display:table;position:relative}
+.federated .resultsViewIcon{margin-left:5px;float:left}
+.federatedLoadingDiv{position:fixed;z-index:1003;top:45%;left:50%;display:none}
+.federatedLoadingImage{height:100px}
+.federatedLoadingBackdrop{position:fixed;background-color:black;left:0;top:0;width:100%;z-index:1002;height:100%;opacity:.5;display:none;filter:alpha(opacity=50)}
+.resultsToolbar_wrapper{width:100%;display:inline-block}
+.list .resultsToolbar_big_wrapper{background:#f7f7f7;-moz-border-radius:5px 5px 0 0;-webkit-border-radius:5px 5px 0 0;-khtml-border-radius:5px 5px 0 0;border-radius:5px 5px 0 0}
+.resultsToolbar_did_you_mean{font-size:14px;margin-top:13px}
+.didYouMean{max-width:345px;padding:8px;margin:auto}
+.didYouMeanLabel{float:left;font-size:12px;color:#ec913f;max-width:80px}
+.didYouMeanLink{float:left;max-width:265px;margin-left:5px;max-height:32px;overflow:hidden}
+.resultsToolbar_did_you_mean a{color:#013f85}
+.resultsToolbar_action_select{margin-left:6px}
+.resultsToolbar_numPages{font-size:16px}
+.resultsToolbar_left{float:left;width:250px}
+.currentPage{font-weight:bold}
+.paginationNavigation{display:inline-block;margin:auto}
+.paginationDropDown{max-width:70px}
+.resultsToolbar_paginationNumbers{margin-top:3px;float:right}
+.navigationImage{text-align:right;float:right;margin-top:0}
+.navImageLeft{text-align:left}
+.paginationNavigation{vertical-align:bottom}
+.resultsViewIcon{float:left}
+.resultsViewIcon img{cursor:pointer}
+.federatedViewIcon{float:left}
+.resultsToolbar_view_btns{height:36px}
+.resultsToolbar_bottom_left{padding-bottom:4px;margin-left:4px;clear:both}
+.resultsToolbar_bottom_left .customDropdown{margin:2px 0 3px 0}
+#containercustomselector{float:left;margin-left:5px}
+.toolbar_a{text-decoration:none}
+.toolbar_a{text-decoration:none}
+.toolbar_a hover{text-decoration:none}
+#chooseListForm div{margin-top:.5em}
+#chooseListForm .button{float:right}
+#addToListWaiting img{margin:0 auto;display:block}
+#addToListResultDiv ul,#addToListResultDivDetail ul{font-style:italic;clear:both;margin:5px 10px 5px 24px;margin-left:24px}
+#addToListResultDiv .success_icon,#addToListResultDivDetail .success_icon{padding-left:24px;min-height:24px;line-height:24px;background-image:url('/client/images/account-icons/green!.png');background-repeat:no-repeat}
+#addToListResultDiv .error_icon,#addToListResultDivDetail .error_icon{padding-left:24px;min-height:24px;line-height:24px;margin-bottom:5px;background-image:url('/client/images/account-icons/red!.png');background-repeat:no-repeat}
+#bottomToolbar_wrapper{width:100%;display:inline-block;vertical-align:bottom;height:35px;border-top:1px dotted black}
+#containercustomselector_bottom{float:left;margin-left:5px;margin-top:5px}
+#federatedTitleBar .pagination{float:right;width:25%;margin:5px}
+.reserveItemDisplay{margin:4px 18px}
+.facet{border-top:1px dotted #aaa;padding:5px}
+#limitcolumn_wrapper .shown{float:left}
+.moreNavigators{position:relative;display:inline;float:left;margin-left:34px;margin-top:5px}
+.fewerNavigators{position:relative;display:inline;float:left;margin-left:34px;margin-top:5px}
+.limitcolumn_p{margin-bottom:20px}
+.searchPage.content_container{display:none}
+#limitcolumn_author{font-size:10pt}
+#onlyAvailableButton{font-size:11px!important}
+#includeUnavailableButton{font-size:11px!important;background-color:#195cb6}
+.crumbText{float:left;margin-left:4px;width:170px}
+.crumbField{float:left}
+.facetCrumb{margin-left:15px;margin-bottom:3px}
+.crumbCaption{float:left;margin-left:10px;width:160px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;-o-text-overflow:ellipsis;-moz-binding:url('./ellipsis.xml#ellipsis')}
+.crumbFieldAndCaption{float:left;width:160px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;-o-text-overflow:ellipsis;-moz-binding:url('./ellipsis.xml#ellipsis')}
+.crumbFieldInclusion{float:left;font-size:14px;font-weight:bold}
+.crumbText .searchlink{float:left;width:180px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;-o-text-overflow:ellipsis;-moz-binding:url('./ellipsis.xml#ellipsis')}
+.facetTitleRow{margin-top:3px}
+.facetTitle{display:inline-block;float:left;font-size:11pt;margin-bottom:10px}
+.navigatorCheckBox{float:left;margin-left:15px}
+.navigator{position:relative}
+.availableLabel{font-weight:bold}
+.limitcolumn_button{float:right;margin-bottom:8px}
+#limitcolumn_format_left{float:left;width:50%;font-size:10pt;font-weight:normal}
+#limitcolumn_format_right{float:right;width:50%;font-size:10pt;font-weight:normal}
+.limitcolumn_more{font-size:9pt;font-weight:bold}
+#limitcolumn_pub_date{font-size:10pt;font-weight:normal}
+#pub_date_btn,#facetCrumbClearAllButton{padding:2px 4px;font-size:10px!important}
+#limitcolumn_lang_left{float:left;width:50%;font-size:10pt;font-weight:normal}
+#limitcolumn_lang_right{float:right;width:50%;font-size:10pt;font-weight:normal}
+#facetForm{margin-top:15px}
+#searchResultsColumn{width:768px;float:right;background:#f7f7f7;border:1px solid #808285;border-left:2px solid #808285;border-top-right-radius:5px;-webkit-border-top-right-radius:5px;-mox-border-radius-topright:5px}
+#limitcolumn_pub_chkbox{display:none;font-size:10pt}
+#limitcolumn_pub_graph{text-align:center;margin:auto}
+.pub_date_div{text-align:left;width:100%}
+.pub_date_textbox{color:#f6931f;font-weight:bold}
+#slider{width:200px;margin:auto;margin-bottom:15px}
+.ui-slider-horizontal .ui-state-default{background:#fff}
+#graph_wrapper{width:200px;margin:auto;margin-top:10px}
+.ui-widget-bg{font-size:9px}
+.ui-widget-bar{position:absolute;bottom:0;font-size:10px}
+#graph_wrapper .ui-widget-content{border:0;background:#f7f7f7}
+.ui-slider .ui-slider-handle{width:.4em;height:1.2em;cursor:default}
+.ui-slider-horizontal{height:.4em}
+.ui-slider-horizontal .ui-slider-handle{top:-.2em;margin-left:-.2em;background:#ffa406;border:1px solid #555}
+#detail_wrapper{margin:auto;width:700px;text-align:left;font-family:arial}
+.clear{clear:both}
+.displayElementText{display:inline;font-size:11px;color:#808285}
+.displayElementText.SUBJECT_TERM{display:block}
+.displayElementLabel{display:inline;font-style:italic;vertical-align:top}
+.hotspot{background-color:#ff0;background-color:rgba(255,255,0,.5);//background-color:yellow}
+.loadinggif{position:absolute;left:350px;top:150px}
+.accordionHolder{display:none}
+#no_results_wrapper{width:100%;text-align:center;padding-top:70px;padding-bottom:100px;font-size:15px;font-weight:bold;background:white;border:1px solid #808285}
+.holdSpan{display:none;float:right;clear:right;margin-top:0}
+.oldHoldSpan{float:right;clear:right;margin-top:0}
+.list .oldHoldSpan .button{font-size:10px;padding:2px 4px}
+.thumb .holdSpan .button{display:none}
+.thumb .oldHoldSpan .button{display:none}
+.detailItems{font-size:11px}
+.detailItems td{padding:10px}
+.detailItems th{padding:7px 6px 4px;text-align:left;border:1px solid #ddd}
+.detailItemTable{width:100%}
+.detailOrders{font-size:11px}
+.detailOrders td{padding:10px}
+.detailOrders th{padding:7px 6px 4px;text-align:left;border:1px solid #ddd}
+.detailOrdersTable{width:100%}
+.ui-accordion .ui-accordion-content{padding:1em 1em}
+.thumb .availableDiv{display:none}
+.thumb .hitNumber{display:none}
+.google_header{display:none}
+.google_preview_wrapper{height:625px}
+.google_preview{width:754px;height:600px}
+.nextArrow{position:absolute;top:50%;cursor:pointer}
+#selectors{margin-top:15px}
+.customDropdown{float:left;cursor:pointer;text-align:left;left:13px}
+.loginLink{cursor:pointer}
+.customDropdown.bottom ul{margin-top:-136px}
+.federated .customDropdown.bottom ul{margin-top:-99px}
+.customDropdown li a,.dropDownButton div{margin-top:3px;float:left}
+.customDropdown li a{width:175px;height:28px;border-bottom:dashed 1px #ddd;padding-left:10px;padding-top:2px;line-height:normal;text-decoration:none}
+.customDropdown li a:hover{background-color:#eee;cursor:pointer}
+.customDropdown li a span{display:block;margin-top:5px}
+.customDropdown img{float:left}
+#assetLocationLink{margin-left:10px}
+.nytimes_wrapper{width:500px;margin:auto;display:none}
+.nytimes_listbar{height:30px;width:500px;background:#aaa;border-radius:4px 4px 0 0;-moz-border-radius:4px 4px 0 0;-webkit-border-radius:4px 4px 0 0;-khtml-border-radius:4px 4px 0 0;position:relative}
+.nytimes_select{position:absolute;top:5px;left:40px;max-width:420px}
+.dataByNyTimes{float:left;border-radius:4px 0 0 0;-moz-border-radius:4px 0 0 0;-webkit-border-radius:4px 0 0 0;-khtml-border-radius:4px 0 0 0;margin-left:1px}
+#nytimes_detail_wrapper{width:484px;display:inline-block;padding:8px;clear:both;position:relative;height:200px;overflow:hidden}
+#nytimes_detail_wrapper>div{position:absolute}
+.nytimes_thumbnail_div{position:relative}
+.nytimes_detail_coverart{position:relative;width:155px;float:left}
+.nytimes_detail_coverart img{max-height:200px;max-width:155px;vertical-align:bottom}
+.nytimes_detail_bio{float:right;width:324px;margin-left:5px}
+.nytimes_bio{height:167px;width:100%;margin-bottom:5px;overflow-y:auto;overflow-x:hidden}
+.amazonButton{float:right;clear:right;margin:4px 0}
+.list .amazonButton .button{font-size:10px;padding:2px 4px}
+.thumb .amazonButton .button{display:none}
+.nytimes_detail_bio .amazonButton{float:none;position:absolute;top:135px;right:0}
+.nytimes_detail_bio .amazonButton a{font-size:13px}
+.nytimes_check_lib_div{height:28px;float:right}
+.nytimes_check_lib_div .button{float:right;font-size:13px}
+.nytimes_top{-moz-border-radius:4px;-webkit-border-radius:4px;-khtml-border-radius:4px;border-radius:4px;margin-bottom:4px;background:#fff}
+#nytimes_play_pause{float:right;margin-right:8px;margin-top:4px}
+.nytimes_most_popular #nytimes_play_pause{display:none}
+.nytimes_most_popular #nytimes_detail_wrapper{height:329px}
+.nytimes_most_popular #nytimes_detail_wrapper>div{position:static}
+.nytimes_most_popular .nytimes_wrapper{display:block}
+.nytimes_most_popular_more{position:absolute;float:right;margin-top:10px;bottom:10px;right:10px}
+.nytimes_most_popular #nytimes_detail_wrapper>.nytimes_most_popular_more{position:absolute}
+.nytimes_top_three_subjects{margin-left:15px}
+.nytimes_top_three_titles{margin-left:15px}
+.nytimes_top_three_authors{margin-left:15px}
+.nytimes_top_three_subjects_label{font-size:14px;font-weight:bold;margin-top:12px;margin-bottom:4px}
+.nytimes_top_three_titles_label{font-size:14px;font-weight:bold;margin-bottom:4px}
+.nytimes_top_three_authors_label{font-size:14px;font-weight:bold;margin-top:12px;margin-bottom:4px}
+.nytimes_most_popular_item{margin-bottom:4px}
+.most_popular_item{margin-bottom:4px}
+.most_popular_titles{float:left;width:33%;padding:5px}
+.most_popular_authors{float:left;width:30%;padding:5px}
+.most_popular_subjects{float:left;width:33%;padding:5px}
+.most_popular_titles_label{font-weight:bold;font-size:18px;margin-bottom:4px}
+.most_popular_authors_label{font-weight:bold;font-size:18px;margin-bottom:4px}
+.most_popular_subjects_label{font-weight:bold;font-size:18px;margin-bottom:4px}
+.jscarousal{width:488px;height:100px;background-color:#3c3c3c;border:solid 1px #7a7677;margin:0;padding:0;padding:10px 5px 10px 5px;position:relative;-moz-border-radius:4px;-webkit-border-radius:4px;-khtml-border-radius:4px;border-radius:4px}
+.jscarousal .jscarousal-left,.jscarousal .jscarousal-right{float:left;width:20px;height:98px;background-color:#3c3c3c;color:White;position:relative;top:2px;cursor:pointer}
+.jscarousal .jscarousal-left{background-image:url(/client/images/left_arrow.png);background-repeat:no-repeat;background-position:left}
+.jscarousal .jscarousal-right{background-image:url(/client/images/right_arrow.png);background-repeat:no-repeat;background-position:right}
+.jscarousal-contents{width:438px;height:100px;float:left;position:relative;overflow:hidden}
+.jscarousal-contents>div{position:absolute;width:100%;height:100px}
+.jscarousal-contents>div>div{float:left;padding-left:5px;padding-right:5px;height:98px;width:77px;text-align:center}
+.visible{display:block}
+.nytimes_thumbnail{filter:alpha(opacity=35);opacity:.35;cursor:pointer}
+.bold{font-weight:bold}
+.italics{font-style:italic}
+.ebookSearchingImage{height:20px}
+.holdResponses{width:100%}
+.holdResponses .holdTitle{padding:10px;font-weight:bold}
+.holdResponses .holdResponse{padding:10px}
+.crumbFieldInclusion{font-size:14px;font-weight:bold}
+#addToListSuccessList li{margin:2px}
+#confirm{float:right;margin:5px 20px 0 0}
+.fieldLabel{margin-left:3px}
+#emailType{margin-left:4px}
+.loginMessages td{padding-left:15px;padding-top:3px;text-align:right}
+.volumeSelect{margin-top:3px;margin-bottom:3px}
+.holdDialogTitle{margin-bottom:8px}
+.pickupSelect{margin-top:3px;margin-bottom:3px}
+.holdTitle{font-weight:bold}
+.holdResponse{text-align:right}
+.ebookList{list-style-type:none}
+.ebookList .button{width:170px;text-align:center;margin:2px;background-color:#f4aa00;text-shadow:none;color:#555}
+.ebookList .button:hover{background-color:#f79502}
+.emailConfirmDiv{text-align:center;margin-top:5px}
+.detailActions{text-align:right}
+.detailActions .facebook_like{margin-bottom:15px}
+.fb_edge_widget_with_comment span.fb_edge_comment_widget iframe.fb_ltr{display:none!important}
+.room_links{list-style-type:none}
+#containercustomselector_bottom .iconselectholder{position:relative;top:-155px}
+.loadingImage{height:100px}
+.navigatorDisplay{padding:8px;border-bottom:1px dotted #ddd}
+.detailItemTable_th{float:left}
+#myListSelect{margin:3px 0;width:100%}
+.noItems{width:100%;text-align:center;font-size:16px;margin-top:40px}
+#taxonomyContainer{display:none}
+.columns_container #taxonomyContainer{display:block!important}
+.displayDetailLink,.displayElementLabel,.availableLabel{font-weight:700}
+.displayElementText{font-size:12px}
+.displayElementWrapper{color:#444;line-height:18px}
+.searchlink{padding:0 6px}
+.detail_biblio .displayElementText.PRIMARY_AUTHOR,.displayElementText.AUTHOR{font-size:12px}
+.displayElementText{color:#444}
+.displayElementLabel{font-style:normal}
+.detail_biblio .displayElementText.PRIMARY_TITLE,.displayElementText.TITLE{#013f85;font-size:14px}
+#advancedSearchPage{width:100%;float:left;position:relative;background:transparent}
+#advancedSearchInnerBox{border:2px solid #aaa;-webkit-border-radius:8px;-moz-border-radius:8px;border-radius:8px;margin-top:0;margin-bottom:10px;margin-left:0;margin-right:0;background:#fff;padding:15px 15px 20px;clear:both}
+.advancedSearchTitle{font-size:14pt;text-align:left;clear:both}
+.advancedSearchDropDown{width:300px}
+#advancedSearchButton{float:right;position:relative;top:10px}
+#example{top:10px;width:80%;float:right;height:20px;margin:2px 20px 2px 2px;position:relative;color:#474747}
+.advancedSearchTitle{margin-top:15px;font-size:14pt;text-align:left;clear:both;padding-top:10px;border-top:1px dotted #ddd}
+.advancedSearchRow{clear:both;padding:5px;min-height:20px}
+.advancedSearchDropDown{width:300px}
+.advancedSearchDropDownHolder{clear:both;margin-left:30%}
+.advancedSearchField{clear:both;margin-left:30%}
+.advancedSearchTextField{width:630px}
+.advancedSearchFieldRadio{position:absolute;float:left;margin-left:20px;margin-right:-10px}
+.advancedSearchRadioLabel{margin-left:1px;margin-right:5px;vertical-align:top;font-size:12px}
+.advancedSearchRadioSection .advancedSearchLabel{position:absolute;clear:both;font-size:11pt;margin-left:215px}
+#advancedFindItemsTitle{margin-top:0;border:0}#advancedSearchOnlyAvailableWrapper{position:relative;float:left;margin-left:20px;margin-top:20px;margin-bottom:10px;padding:10px 0;border:1px dotted #ddd;border-right:0;border-left:none;width:98%}
+#advancedSearchOnlyAvailable{float:left;margin:3px}
+#advancedSearchOnlyAvailableLabel{float:left}
+#advancedSearchError{padding-left:25px}
+.searchModifiersColumn{float:left;margin-left:23px}
+.searchModifiersLabel{font-size:13pt;margin-bottom:5px}
+.searchModifier{margin-bottom:3px}
+#advancedSearchForm div.t-error li{margin-left:20px}
+.t-ajax-console{display:none}
+body{font-family:Arial Unicode MS,Arial,Verdana,Helvetica,sans-serif!important;min-width:1000px}
+.button:hover{background-color:#195cb6;color:#fff}
+a:hover.button{background-color:#195cb6;color:#fff;text-decoration:none}
+a{text-decoration:none;color:#013f85}
+a:hover{text-decoration:underline}
+.button .addLink{min-width:5px;height:auto}
+ul,ol{list-style-position:inside}
+li{margin-left:3px}
+.error{position:absolute;top:30px;left:40%;background-color:red;color:white;font-size:15px;padding:20px;border:1px solid black;border-radius:5px}
+.holdError{background-color:red;color:white;font-size:15px;padding:20px;border:1px solid black;border-radius:5px}
+.warning{background-color:#ffff78;color:black;font-size:15px;padding:20px;border:1px solid black;border-radius:5px}
+.emailError{background-color:red;color:white;border:1px solid black;border-radius:5px}
+.loginButton{float:right;display:inline-block;background:#013f85 url(./images/sirsidynix/alert-overlay.png) repeat-x;text-align:center;font-size:14px;font-style:none;font-weight:bold;color:#fff;text-decoration:none;cursor:pointer;border:1px solid rgba(0,0,0,0.25);text-shadow:0 -1px 1px rgba(0,0,0,0.25);padding:4px 8px;margin-top:3px;-moz-border-radius:5px;-webkit-border-radius:5px;-moz-box-shadow:0 1px 3px rgba(0,0,0,0.5);-webkit-box-shadow:0 1px 3px rgba(0,0,0,0.5)}
+.loginButton:hover{text-decoration:none;background-color:#002c76}
+.loginButton:active{top:1px}
+.user_name_input,.password_input{width:155px}
+#adaModeDiv{display:inline-block;min-width:18px;min-height:14px}
+.pinRecoveryDialog td{padding-top:2px}
+.recoveryError{color:red}
+div.lpdropdown{background:url("/client/images/action-icons/dropdown.png");height:25px;width:185px;position:relative;padding-left:15px}
+div.lpdropdown.hover,div.lpdropdown:hover{color:black}
+div.lpdropdown li.hover,div.lpdropdown li:hover{background:#9EF;color:black}
+div.lpdropdown a:hover{color:#000}div.lpdropdown a:active{color:#888}
+div.lpdropdown a{text-decoration:none;display:block;padding:0 8px;padding-top:6px;color:#222}
+div.lpdropdown ul{list-style:none;visibility:hidden;position:absolute;top:100%;left:0;font-weight:normal;width:250px;background-color:#f6f6f6;border:2px solid #7d7d7d;float:none;margin:0;z-index:1}
+div.lpdropdown ul li img{float:left;height:20px;padding:0}
+div.lpdropdown ul li a{text-decoration:none;border-bottom:dashed 1px #DDD;color:#222;height:22px;padding-top:3px;width:100%;display:inline-block;position:relative}
+div.lpdropdown ul li a span{position:relative;top:2px;left:3px}
+.lpdropdown a:hover>ul{visibility:visible;display:block}
+.lpdropdown li{background-color:#fff;border:1px solid #808285;padding:3px;color:#000;text-align:center;list-style-type:none}
+.lpdropdown li a{color:#000}.lpdropdown li:hover{background-color:#ddd}
+#registration_link{float:right}
+.suggestFieldBlur{width:350px}
+.searchBoxRadioButton{margin-right:2px}
+.searchBoxRadioLabel{margin-right:10px;font-size:12px}
+#searchType{text-align:top;float:right;margin-right:auto}
+*:first-child+html #searchType{margin-top:0;text-align:top;float:left;margin-right:auto}
+#onlyAvailable{margin-left:5px;margin-right:3px;float:left;margin-top:12px}
+#onlyAvailableLabel{float:left}
+#searchBox_container .content{background-color:transparent}
+#searchBox_container .top_edge,#searchBox_container .right_edge,#searchBox_container .bottom_edge,#searchBox_container .left_edge,#searchBox_container .top_right,#searchBox_container .bottom_right,#searchBox_container .bottom_left,#searchBox_container .top_left{display:none}
+#searchTypeDropDown{width:100px}
+#searchLimitDropDown{width:180px}
+#restrictionDropDown{width:180px}
+#seachBoxAdvancedLink{margin-left:10px;float:right;width:auto}
+#searchButton:hover{background-color:#e25200}
+#browseButton{float:right}
+.loginLink{display:inline}
+.menuActive{display:inline}
+.loginLink a{font-size:13px;padding:5px;color:#fff;font-weight:bold}
+.menuLink a{font-size:13px;padding:5px;color:#fff}
+.menuActive a{font-size:13px;padding:5px;padding-bottom:0;font-weight:bold;color:#fff;border-bottom:1px dotted #ddd}
+.pipeSeparator{color:#000}
+.menuLink a:visited{color:#fff}
+.welcome{padding:5px;color:#ffb16a}
+#libInfoContainer{display:inline;position:relative}
+.secondary_header_menu_container{display:block;width:1000px;padding:5px}
+.secondary_header_menu_container ul{float:left}
+.secondary_header_menu_container ul li{float:left;margin:0 5px;display:inline}
+.secondary_header_menu_container ul li a{line-height:17px;margin-right:5px;display:inline}
+.menu_link_after{background:transparent url(./images/sirsidynix/menuLinkAfter.png) no-repeat center center;width:10px;min-height:15px;margin-right:8px;float:right;margin-top:1px}
+.columns_container{min-height:525px;margin-top:5px;clear:both}
+.columns_container .pct25{width:24%}
+.columns_container .pct50{width:50%}
+.columns_container .pct75{width:74%}
+.columns_container .pct100{width:100%}
+.column{float:left;display:inline;position:relative;padding:3px;margin:0;overflow:visible}
+.content_container{background:#fff;padding:5px;border:1px solid #c0c0c0;margin:5px}
+.outerDiv{clear:both;padding:3px 1px}
+.innerDiv{float:left;padding-right:2px}
+#copyright{padding:4px;text-align:center}
+.modalBody{background:white;width:auto;border:0;min-width:0}
+.server_input{width:154px}
+.hidden{display:none}
+.lpdropdown a:visited,.lpdropdown a:hover,.lpdropdown a:active{color:black}
+#lpMainLink{color:white}
+h1,h2,h3,h4,h5,h6,blockquote,ul,ol,table,p{margin:5px 0}
+li{margin-bottom:2px}
+.content,#taxonomyContainer{padding:5px}
+.registrationDiv{text-align:center;background:white;border:1px solid #808285;border-radius:5px;margin-left:20%;margin-right:20%}
+.registrationTitle{width:100%;font-size:18px;font-weight:bold}
+.registrationlabel{width:50%;float:left;text-align:right;padding-right:5px}
+.registrationField{margin-top:10px;text-align:left}
+.registration_requiredCue{color:red}
+.registrationCancel{margin-left:5px}
+.registrationButtons{margin-top:10px;margin-bottom:10px}
+.registrationPwdConfirm{margin-top:10px}
+.registrationConfirm{margin-top:10px}
+.payflowProDiv{text-align:center;background:white;border:1px solid #808285;border-radius:5px;margin-left:23%;margin-right:23%;padding-left:2%;padding-right:2%}
+.payflowProFormTitle{width:100%;font-size:18px;font-weight:bold}
+.payflowProForm{text-align:left}
+.payflowProForm div.t-error ul{text-align:center}
+.payflowField{margin-top:10px;margin-left:10px}
+.payflowTextField{margin-left:5px}
+.payflowSelect{margin-left:5px}
+.payflowField.zip{margin-bottom:10px;float:left}
+.payflowField.state{float:left}
+.payflowField.city{float:left}
+#city.payflowTextField{margin-left:16px}
+#street.payflowTextField{width:368px}
+.payflowButtons{margin-top:10px;margin-bottom:10px;text-align:center}
+.payflowButton{margin:5px}
+fieldset.billingAddressFieldSet legend{padding:0 4px 0 4px;margin-bottom:10px}
+.billingAddressFieldSet{padding-left:15px;margin-top:10px}
+.totals{margin-left:10px;margin-top:10px}
+.totalsLabel{font-weight:bold;font-size:14px;margin-right:10px}
+.totalOwed{font-size:18px}
+.payflowConfirm{margin-top:10px;margin-left:10px}
+.payflowConfirmButtons{margin-top:5px}
+.address{margin-left:10px}
+.confirmLabel{margin-right:5px;font-weight:bold}
+.payflowConfirmButtons{margin-top:15px;text-align:right}
+.payflowConfirmInstruction{margin-left:10px}
+.payflowHelpLink{margin-left:5px}
+.explainDiv{text-align:right}
+.postRegistration{background:white;border:1px solid #808285;border-radius:5px;margin-left:23%;margin-right:23%;padding-left:2%;padding-right:2%}
+*:first-child+html #q{padding-top:2px}
+*:first-child+html #listContainer{width:74%;right:0;float:right}
+*:first-child+html #listsContainer{float:left}
+*:first-child+html #myListTitle{width:100%}
+*+html .menu_link_after{display:none}
+*+html #q{width:275px}
+.hideIE{//display:none}@media screen and (-webkit-min-device-pixel-ratio:0){.menu_link_after{margin-top:-16px}}
+body{background:#fff url(./images/sirsidynix/bkg2.png) repeat-x;margin:0 auto;font-family:Arial,verdana,sans-serif;font-size:12px}
+.noback{background:#fff;min-width:0}
+.header_container{color:#000;background:transparent}
+.holdsTable{width:500px}
+.holdsTable td{border-top:2px solid black;padding-top:2px}
+.titleColumn{width:300px}
+#searchBox{padding:1px 5px 6px 5px;width:988px}
+#searchBoxWrapper{margin:0 auto}
+.secondary_header_menu_container ul li a{color:#fff}
+#content{background:transparent;display:inline-block;min-height:525px;height:auto;overflow:visible;width:1000px;margin:0 auto;clear:both}
+#footer{background:#013f85;min-height:25px;color:#808285;width:100%;margin-top:8px}
+#footer a{color:#fff}
+.confirmation{text-align:center}
+.limitcolumn_title{margin-top:13px}
+.limitcolumn_wrapper{background:#f7f7f7 url(../images/sirsidynix/listgradient2.png) left 1px repeat-x}
+.myListControls #listdetails_sort{margin-right:12px}
+#myListButtons{left:20px;position:relative}
+.sortSelectLabel{left:4px}
+.sortDropDown{margin-right:8px}
+.resultsToolbar_middle{width:259px}
+.header{margin-bottom:16px}
+.headerWrapper{width:100%;z-index:97}
+#searchBoxWrapper{position:absolute}
+

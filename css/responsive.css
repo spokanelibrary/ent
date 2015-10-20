@@ -1,0 +1,170 @@
+/*
+	Responsive Utils
+*/
+
+/* Full Desktop */
+@media (min-width: 1001px) {
+  #footer {
+  	/*background: yellow;*/
+  }
+
+
+}
+
+/* Common non-desktop styles */
+@media ( max-width: 1000px ) {
+
+	.header_container {
+  	/*background-image: none;*/
+  }
+
+	.searchBoxSection {
+		float:left;
+	}
+  
+  /*
+  #searchForm {
+  	padding-top: 2px;
+  	width: 780px !important;
+  }
+  */
+
+  #searchField,
+  #searchButton {
+  	margin-top: 10px;
+  	margin-bottom: 50px;
+  }
+
+  #searchField input {
+  	height: 30px;
+  	font-size: 20px !important;
+  }
+  #searchButton {
+  	height: 40px;
+  }
+
+  .suggestDropDown {
+  	display: none;
+  }
+
+
+  .searchLimitsColumn,
+  .limitcolumn_wrapper, 
+  #searchResultsColumn {
+  	float: right !important;
+  	padding: 0;
+  	margin: auto !important;
+  	width: 100% !important;
+  	border:none;
+  	margin-bottom: 10px !important;
+  }
+
+  .results_wrapper {
+  	width: 100%;
+  }
+  /*
+  .resultsToolbar_big_wrapper,
+  .resultsToolbar_wrapper {
+  	float: left !important;
+  	padding: 0;
+  	margin: auto !important;
+  	width: 100% !important;
+  }
+  */
+
+}
+
+/* Large Tablets || Sm Desktop */
+@media (min-width: 769px) and (max-width: 1000px) {
+  #footer {
+  	background: green;
+  }
+
+  #content,
+  #header,
+  .header_container,
+  .secondary_header_menu_container,
+  .ada_div_top_wrapper,
+  #myAccount,
+  #searchBox,
+  #searchForm,
+	#reducedPreferences,
+	.t-ajax-console {
+  	width: 768px !important;
+  }
+
+  body {
+  	min-width: 768px;
+  }
+
+  #q,
+  #searchBoxesWrapper {
+  	width: 600px;
+  }
+  
+}
+
+/* Lg Phones || Sm Tablets */
+@media (min-width: 481px) and (max-width: 768px) {
+  #footer {
+  	background: red;
+  }
+
+  #content,
+  #header,
+  .header_container,
+  .secondary_header_menu_container,
+  .ada_div_top_wrapper,
+  #myAccount,
+  #searchBox,
+  #searchForm,
+	#reducedPreferences,
+	.t-ajax-console {
+  	width: 480px !important;
+  }
+
+  body {
+  	min-width: 480px;
+  }
+
+  #q,
+  #searchBoxesWrapper {
+  	width: 300px;
+  }
+  
+}
+
+/* Phones */
+@media (max-width: 480px) {
+	#footer {
+  	background: blue;
+  }	
+
+  .header_container {
+  	background-image: none;
+  }
+
+  #content,
+  #header,
+  .header_container,
+  .secondary_header_menu_container,
+  .ada_div_top_wrapper,
+  #myAccount,
+  #searchBox,
+  #searchForm,
+	#reducedPreferences,
+	.t-ajax-console {
+  	width: 480px !important;
+  }
+
+  body {
+  	min-width: 480px;
+  }
+
+  #q,
+  #searchBoxesWrapper {
+  	width: 300px;
+  }
+
+
+}
